@@ -1,3 +1,4 @@
+  
 $(document).ready(function() {
     $("#links").hide();
     $("#menu-btn").click(changeNav);
@@ -7,4 +8,3 @@ $(document).ready(function() {
       $("#menu-btn").toggleClass("turn");
     }
   });
-  
