@@ -453,11 +453,11 @@ nav ul li a:hover {
 
 <!-- Footer contact us  -->
  .footer{
-    display: inline-block;
     height: 20%;
     background-color:#b030b0;
   }
   .contact-img{
+    display: inline;
     padding-top: 3px;
     padding-bottom: 6px;
     height: 35px;
