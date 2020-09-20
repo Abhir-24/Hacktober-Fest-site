@@ -474,3 +474,70 @@ nav ul li a:hover {
     margin:10px;
     text-align: center;
   }
+
+
+  .about0,.about1,.about2,.about3{
+    margin:50px 100px;
+     text-align:center;
+     color:white;
+     font-family: 'Roboto', sans-serif;
+     font-size:28px;
+     font-family:'Aclonica';
+     height:auto;
+     width:auto;
+     border-top-left-radius: 30px;
+     border-bottom-right-radius: 30px;
+     background-color:#b030b0;
+     padding:50px;
+     box-shadow: 20px 20px white;
+     z-index:-1;
+   
+   }
+   
+   .about0 > p{
+     animation:fadeInUp;
+     animation-duration:3s;
+     animation-iteration-count: 1;
+     animation-delay: 0s;
+     
+     
+   }
+   .about1 > p{
+     animation:fadeInUp;
+     animation-duration:3s;
+     animation-iteration-count: 1;
+     animation-delay: 2s;
+     
+   }
+   .about2 > p{
+     animation:fadeInUp;
+     animation-duration:3s;
+     animation-iteration-count: 1;
+     animation-delay: 4s;
+    
+   }
+   .about3 > p{
+     animation:fadeInUp;
+     animation-duration:3s;
+     animation-iteration-count: 1;
+     animation-delay: 6s;
+     
+   }
+   .about{
+     font-size:3.5em;
+     color:white;
+     margin-top:150px;
+     font-weight:bold;
+     text-align:center;
+     z-index: -1;
+   }
+   .about .line{
+     display:inline-block;
+     line-height:1em;
+     
+   }
+   .pullreq{
+     color:pink;
+   }
+
+   

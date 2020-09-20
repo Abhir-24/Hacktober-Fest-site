@@ -35,3 +35,33 @@ $(document).ready(function() {
       }
   }, 200); 
 }); 
+
+
+
+
+
+//about us page js 
+var textWrapper=document.querySelector(".about");
+textWrapper.innerHTML=textWrapper.textContent.replace(/\S/g, "<span class='line'>$&</span>")
+
+  anime.timeline({loop:false})
+  .add({
+    targets:'.about .line',
+    translateZ:0,
+    scale:[4,1],
+    opacity:[0,1],
+    easing:"easeOutExpo",
+    duration:2000,
+    delay:(e1,i)=>70*i
+  }).add({
+    targets:".about",
+    opacity:1,
+    duration:1000,
+    easing:"easeOutExpo",
+    delay:2000,
+  })
+
+
+
+
+  
